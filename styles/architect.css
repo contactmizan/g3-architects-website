@@ -238,7 +238,6 @@ footer {
     header {
         padding: 20px;
         margin: 0;
-        margin-left: 60px;
     }
 
     nav,
@@ -249,18 +248,26 @@ footer {
         flex-direction: column;
     }
 
+    main {
+        margin: 0;
+        padding: 0;
+    }
+
+
     .teams {
-        margin-right: 280px;
+        /* margin-right: 550px;  */
         margin-top: 50px;
     }
 
     .teams-img {
         grid-template-columns: 1fr;
+        margin-right: 200px;
     }
 
-    main {
-        margin: 0px;
+    .teams-content {
+        margin-right: 200px;
     }
+
 
     .facts {
         margin: 0;
@@ -290,17 +297,19 @@ footer {
         padding: 50px;
     }
 
+    main {
+        margin: 0;
+    }
+
     .teams {
         margin-right: 220px;
     }
 
     .teams-content {
-        margin-left: 50px;
+        margin: auto;
     }
 
-    main {
-        margin: 0;
-    }
+
 
     .features-content {
         margin-left: 50px;
